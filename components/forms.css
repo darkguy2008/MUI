@@ -1,0 +1,32 @@
+section[data-role="form"][data-type="stack"] input,
+section[data-role="form"][data-type="stack"] button,
+section[data-role="form"][data-type="stack"] select,
+.button {
+	display: block;
+    width: 100%;
+}
+
+section[data-role="form"] legend {
+    display: block;
+}
+
+section[data-role="form"] button,
+section[data-role="form"] input[type=submit] {
+    cursor: pointer;
+}
+
+*[data-align="center"] { margin: 0 auto; }
+*[data-size="w-10"] { width: 10%; }
+*[data-size="w-20"] { width: 20%; }
+*[data-size="w-30"] { width: 30%; }
+*[data-size="w-40"] { width: 40%; }
+*[data-size="w-50"] { width: 50%; }
+*[data-size="w-60"] { width: 60%; }
+*[data-size="w-70"] { width: 70%; }
+*[data-size="w-80"] { width: 80%; }
+*[data-size="w-90"] { width: 90%; }
+*[data-size="w-100"] { width: 100%; }
+section[data-role="form"] fieldset[data-size="w-100"] *,
+section[data-role="form"] fieldset[data-size="w-full"] * {
+    width: 100%;
+}

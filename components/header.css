@@ -1,0 +1,45 @@
+/* ########################################## */
+/* MUI STYLES - HEADER */
+/* ########################################## */
+body > form,
+div[data-role="page"] {
+	/* overflow: hidden; */
+}
+
+section[data-role="header"] {
+	text-align: center;
+	height: auto;
+	width: 100%;
+	position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s;
+}
+section[data-role="header"] h1 {
+	display: inline-block;
+}
+
+section[data-role="header"] fieldset {
+	display: inline-block !important;
+}
+section[data-role="header"]
+fieldset[data-align="left"] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;	
+}
+section[data-role="header"]
+fieldset[data-align="right"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	float: right;	
+}
+
+section[data-role="header"] input,
+section[data-role="header"] button {
+	cursor: pointer;
+    line-height: 1;
+    height: 1px;
+}

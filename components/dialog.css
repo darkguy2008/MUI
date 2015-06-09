@@ -1,0 +1,23 @@
+﻿.dialog {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.dialog table {
+    width: 100%;
+    height: 100%;
+}
+
+    .dialog td.wrapper {
+        height: 1%;
+        text-align: center;
+    }
+
+    .dialog td div.window {
+        display: inline-block;
+        width: 80%;
+    }
