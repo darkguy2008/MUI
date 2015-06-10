@@ -38,6 +38,7 @@ var muiPage = Class.extend({
             page.attr("data-active", "true");
             if (page.attr("data-id") != "main") { $("button[data-action='appBack']").show(); } else { $("button[data-action='appBack']").hide(); }
             mui.Resize();
+            mui.GetPlugin("nav").Close();
         });
         this._quick = undefined;
     }
