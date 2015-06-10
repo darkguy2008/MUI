@@ -11,7 +11,7 @@ var muiForms = Class.extend({
         });
 
         var self = this;
-        if(__doPostBack != undefined)
+        if(typeof __doPostBack != "undefined")
         {
             this._dpb = __doPostBack;
             __doPostBack = function (et, ea) {
