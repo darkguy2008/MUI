@@ -4,9 +4,9 @@
 /* MUI STYLES */
 /* ########################################## */
 
-section {
+section, div {
     font-family: "Droid Sans";
-    /* font-size: 12pt; */
+    font-size: 12pt;
 }
 
 div[data-role="page"] {
