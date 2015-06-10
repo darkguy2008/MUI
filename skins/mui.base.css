@@ -4,9 +4,12 @@
 /* MUI STYLES */
 /* ########################################## */
 
+section {
+    font-family: "Droid Sans";
+    /* font-size: 12pt; */
+}
+
 div[data-role="page"] {
-    /* background-image: url('http://subtlepatterns.com//patterns/concrete_seamless.png'); */
-    /* background-image: url('http://subtlepatterns.com/patterns/lil_fiber.png'); */
     background-image: url('http://subtlepatterns.com/patterns/fancy_deboss.png');
 }
 
