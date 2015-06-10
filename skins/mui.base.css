@@ -6,7 +6,7 @@
 
 * {
     font-family: "Droid Sans";
-    font-size: 12pt;
+    /* font-size: 12pt; */
 }
 
 div[data-role="page"] {
@@ -79,25 +79,25 @@ div[data-role="menu"] h2 {
 body.pml-open div[data-role="menu"] {
     -webkit-box-shadow: 4px 0px 24px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 0px 24px 5px rgba(0,0,0,0.75);
-    box-shadow: 4px 0px 24px 5px rgba(0,0,0,0.75);        
+    box-shadow: 4px 0px 24px 5px rgba(0,0,0,0.75);
 }
 
 div[data-role="menu"] ul li a {
     padding: .5em .5em .5em 1em;
-    
+
     border-top: 1px solid #333;
     border-bottom: 1px solid #111;
-    
+
     text-decoration: none;
-    color: #fff;    
-    
+    color: #fff;
+
     background-image: url('http://subtlepatterns.com/patterns/zigzag.png');
 }
 
 div[data-role="menu"] ul li.title {
     padding: .25em;
     color: #aaa;
-    
+
     border-top: 1px solid #333;
     border-bottom: 1px solid #111;
 }
@@ -123,13 +123,13 @@ div[data-role="submenu"] ul li a {
 /* MUI STYLES - FORMS */
 /* ########################################## */
 
-fieldset legend 
+fieldset legend
 {
     margin-top: 0;
     margin-bottom: .5em;
 	padding: 0;
     border-bottom: 1px solid #ccc;
-    width: 100%;    
+    width: 100%;
     font-size: 16pt;
 }
 
@@ -169,7 +169,7 @@ section[data-role="form"] input[type=submit],
     background: #ddd;
     padding: .5em 1em;
     text-align: center;
-    text-decoration: none;    
+    text-decoration: none;
     margin-bottom: 1em;
 }
 
@@ -188,24 +188,24 @@ section[data-role="form"] input[type=submit][data-color='red'],
     color: #fff;
 }
 
-section[data-role="form"] select 
+section[data-role="form"] select
 {
     margin-bottom: 1em;
     border: 1px solid #555;
     border-radius: 10px;
     color: #222;
-    
+
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     text-overflow:'';
     text-indent: 0.01px; /* Removes default arrow from firefox*/
     text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
-    
+
     background-repeat: no-repeat;
     background-position: right center;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABoElEQVR4nO2ZPaqDQBhFT15lF7uIWYBbTGM1jQjZny4gYjkWAVP5KnkhmGggM/dBvtOKcO5B/El20zRNfDE/agE1FkAtoMYCqAXUWAC1gBoLoBZQYwHUAmosgFpAjQVQC6ixAGoBNRZALaDGAqgF1FgAtYCaoAG895zPZ7z3b5/bNA11XTOOYwCzP3ah/hjx3uOco+s68jynLEvSNN10btM0VFXF7XajKApOpxNJkoTQDHMF3I8H6LoO59ymK+F+PEDbtlRVFexK+HiAx/EzWyI8jp8JGeHjAcZx5Hq9Lh57FeHZ+NB8PECWZZRlyX6/Xzy+FGFtfMj7QLCb4OVywTnHMAyLx+cbY9/3svEQMACsRzgcDnjvZeMhcABYj/CMGOMhwpvg8Xh8eU9YItZ4iPQq/E6EmOMh4rfAlgixx0Pkj6FXERTjQfA1uBRBNR4iPAWeMT8dsiyTjQdhAIC+70nTVDYexAH+A/aLkFpAjQVQC6ixAGoBNRZALaDGAqgF1FgAtYAaC6AWUGMB1AJqLIBaQI0FUAuosQBqATVfH+AXr4PlbCzbnawAAAAASUVORK5CYII=');
-    
+
     padding: 1em;
 }
 
@@ -268,7 +268,7 @@ span.tag.yellow { border: 1px solid #f1e371; background: #f7f3d3; color: #880; }
 /* ########################################## */
 /* MUI STYLES - LIST ADDONS */
 /* ########################################## */
-span[data-role="num"] 
+span[data-role="num"]
 {
     float: right;
     font-weight: bold;
@@ -287,19 +287,19 @@ span[data-role="num"].blue { background: #00f; color: #fff; }
 /* MUI STYLES - DIALOGS */
 /* ########################################## */
 
-.dialog td div.window 
+.dialog td div.window
 {
     background: #fff;
     padding: 1em;
     border-radius: 10px;
 }
 
-.dialog td div.window p 
+.dialog td div.window p
 {
     margin-bottom: 1em;
 }
 
-.dialog td div.window button 
+.dialog td div.window button
 {
     clear: both;
     border-radius: 3px;
@@ -311,19 +311,19 @@ span[data-role="num"].blue { background: #00f; color: #fff; }
     margin-bottom: .5em;
 }
 
-.dialog td div.window button[data-color='blue'] 
+.dialog td div.window button[data-color='blue']
 {
     background: dodgerblue;
     color: #fff;
 }
 
-.dialog td div.window button[data-color='red'] 
+.dialog td div.window button[data-color='red']
 {
     background: red;
     color: #fff;
 }
 
-.dialog td div.window button[data-color='green'] 
+.dialog td div.window button[data-color='green']
 {
     background: green;
     color: #fff;
@@ -333,7 +333,7 @@ span[data-role="num"].blue { background: #00f; color: #fff; }
 /* MUI STYLES - LOADING */
 /* ########################################## */
 
-.loading td div.window 
+.loading td div.window
 {
     background: rgba(0, 0, 0, 0.8);
     padding: 1em;
@@ -341,7 +341,7 @@ span[data-role="num"].blue { background: #00f; color: #fff; }
     color: #fff;
 }
 
-.loading td div.window button 
+.loading td div.window button
 {
     clear: both;
     border-radius: 3px;
@@ -350,13 +350,13 @@ span[data-role="num"].blue { background: #00f; color: #fff; }
     padding: .5em 1em;
 }
 
-.loading td div.window button[data-color='blue'] 
+.loading td div.window button[data-color='blue']
 {
     background: dodgerblue;
     color: #fff;
 }
 
-.loading td div.window button[data-color='red'] 
+.loading td div.window button[data-color='red']
 {
     background: red;
     color: #fff;
@@ -422,9 +422,9 @@ div[data-role="calendar"]
     margin-bottom: 1em;
 }
 
-div[data-role="calendar"] table { 
+div[data-role="calendar"] table {
     width: 100%;
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 div[data-role="calendar"] td + td,
@@ -478,7 +478,7 @@ div[data-role="calendar"] table tr th
     color: #fff;
 }
 
-div[data-role="calendar"] table a { 
+div[data-role="calendar"] table a {
     text-decoration: none;
 }
 
@@ -487,10 +487,10 @@ div[data-role="calendar"] table a {
         border-color: #222;
     }
     div[data-role="calendar"] table td.other a {
-        
+
         color: #888 !important;
     }
-    
+
     div[data-role="calendar"] table td.today {
         border: #222;
         background-color: #e1c100 !important;
@@ -499,12 +499,12 @@ div[data-role="calendar"] table a {
         box-shadow: inset 0px 4px 3px rgba(0,0,0,0.5);
     }
     div[data-role="calendar"] table td.today a {
-        
+
         color: #fff !important;
         font-weight: bold;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     }
-    
+
     div[data-role="calendar"] table td.selected {
         border: #222;
         background-color: dodgerblue !important;
@@ -513,9 +513,8 @@ div[data-role="calendar"] table a {
         box-shadow: inset 0px 4px 3px rgba(0,0,0,0.5);
     }
     div[data-role="calendar"] table td.selected a {
-        
+
         color: #fff !important;
         font-weight: bold;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     }
-    
