@@ -10,7 +10,7 @@ section, div {
 }
 
 div[data-role="page"] {
-    background-image: url('http://subtlepatterns.com/patterns/fancy_deboss.png');
+    background-image: url('base/fancy_deboss.png');
 }
 
 section[data-role="content"] {
@@ -40,7 +40,7 @@ section[data-role="content"] h3 {
 
 section[data-role="header"] {
     color: #fff;
-    background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
+    background-image: url('base/footer_lodyas.png');
     padding: .5em;
 }
 
@@ -62,7 +62,7 @@ section[data-role="header"] button {
 
 div[data-role="menu"] {
     border-right: 1px solid #111;
-    background-image: url('http://subtlepatterns.com/patterns/triangles.png');
+    background-image: url('base/triangles.png');
 }
 
 div[data-role="menu"] h2 {
@@ -89,7 +89,7 @@ div[data-role="menu"] ul li a {
     text-decoration: none;
     color: #fff;
 
-    background-image: url('http://subtlepatterns.com/patterns/zigzag.png');
+    background-image: url('base/zigzag.png');
 }
 
 div[data-role="menu"] ul li.title {
@@ -444,7 +444,7 @@ div[data-role="calendar"] table tr:first-child td
 }
 
 div[data-role="calendar"] table tr:first-child td table {
-    background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
+    background-image: url('base/footer_lodyas.png');
     color: #fff;
     border: 0;
 }
@@ -472,7 +472,7 @@ div[data-role="calendar"] table tr th
 {
     padding: .5em 0;
     border: 0;
-    background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
+    background-image: url('base/footer_lodyas.png');
     color: #fff;
 }
 
@@ -481,7 +481,7 @@ div[data-role="calendar"] table a {
 }
 
     div[data-role="calendar"] table td.other {
-        background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
+        background-image: url('base/footer_lodyas.png');
         border-color: #222;
     }
     div[data-role="calendar"] table td.other a {
